@@ -24,7 +24,7 @@ class Triangle extends Shape {
 
   @Override
   public double calculateArea() {
-    return (sideA * heightA) / 2;
+    return (sideC * heightA) / 2;
   }
 
   public double calculateArea(double sinAngleC) {

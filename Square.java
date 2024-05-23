@@ -5,6 +5,10 @@ class Square extends Shape {
     this.side = side;
   }
 
+  public double getSide() {
+    return this.side;
+  }
+
   @Override
   public void validate()
   {
